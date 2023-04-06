@@ -1,0 +1,15 @@
+body {
+  background-color: cadetblue;
+}
+h1 {
+  text-align: center;
+  color: purple;
+  border-bottom: dotted 3px black;
+}
+article {
+  color: rgb(48, 48, 244);
+  text-shadow: 3px 3px 5px black;
+}
+h2 {
+  text-shadow: 3px 3px 5px black;
+}

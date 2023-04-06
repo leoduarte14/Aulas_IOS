@@ -1,0 +1,19 @@
+body {
+    background-color: #EBE4F2;
+    color: #0D0D0D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p,
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+h2 {
+    float: right;
+}
+h4,h5 {text-align: center}

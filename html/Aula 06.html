@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário</title>
+    </head>
+    <body>
+        <header>
+            <h1>Lista de Jogos Favoritos</h1>
+        </header>
+        <main>
+            <form action="#">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" id="nome" required />
+                <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                <input type="text" id="sobrenome" /><br /><br />
+                <label for="email"><strong>Email:</strong></label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="exemplodeemail@gmail.com"
+                    size="50"
+                /><br /><br />
+                <hr />
+                <!-- usando elemnto radio  -->
+                <p><strong>Qual jogo você mais jogou?</strong></p>
+                <input type="radio" name="ljogos" id="op1" />
+                <label for="op1">Sonic</label><br />
+
+                <input type="radio" name="ljogos" id="op2" />
+                <label for="op2">Super Mario World</label><br />
+
+                <input type="radio" name="ljogos" id="op3" />
+                <label for="op3">God of War 3</label>
+                <hr />
+                <!-- usando elemento checkbox -->
+                <p><strong>Qual plataforma você joga?</strong></p>
+                <input type="checkbox" name="plataformas" id="pl1" />
+                <label for="pl1">Playstation</label><br />
+
+                <input type="checkbox" name="plataformas" id="pl2" />
+                <label for="pl2">Xbox</label><br />
+
+                <input type="checkbox" name="plataformas" id="pl3" />
+                <label for="pl3">PC</label><br /><br />
+                <hr />
+                <!-- usando elementos datalist e select -->
+                <label for="jogos"
+                    ><strong>Selecione um jogo da lista</strong></label
+                >
+                <select name="jogos" id="jogos">
+                    <option value="" disabled selected>
+                        <!-- o elemento disabled selected deixa a opção não clickavel -->
+                        Selecione um Jogo
+                    </option>
+                    <option value="GTAV">GTA V</option>
+
+                    <option value="NFS4">Need for Speed</option>
+
+                    <option value="CC">Candy Crush</option>
+
+                    <option value="HD">Hay Day</option></select
+                ><br /><br /><br />
+                <hr />
+                <label for="dlist"
+                    ><strong>De qual cidade você joga</strong></label
+                >
+                <input
+                    autocomplete="on"
+                    id="dlist"
+                    name="dlist"
+                    list="cidade"
+                />
+                <datalist id="cidade">
+                    <option value="São Paulo"></option>
+                    <option value="Guarulhos"></option>
+                    <option value="Osasco"></option></datalist
+                ><br /><br />
+                <hr />
+                <p>
+                    <strong
+                        >De 0 a 100 como você avalia os jogos no geral</strong
+                    >
+                </p>
+                0
+                <input type="range" id="valor_01" name="valor_01" />
+                100 <br /><br />
+                <hr />
+                <label for="sugestao"
+                    ><strong
+                        >Como foi seu primeiro contato com os jogos
+                        eletrônicos:</strong
+                    ></label
+                ><br />
+                <textarea
+                    name="sugestao"
+                    rows="10"
+                    cols="50"
+                    id="sugestao"
+                    required
+                >
+                </textarea>
+                <br /><br />
+                <input type="submit" value="Enviar" />
+            </form>
+        </main>
+        <br /><br />
+        <footer>Direitos reservados &reg; No copyright &copy;</footer>
+    </body>
+</html>

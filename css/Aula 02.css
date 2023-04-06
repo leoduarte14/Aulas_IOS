@@ -1,0 +1,35 @@
+body {
+    background-color: blanchedalmond;
+  }
+  
+  h1 {
+    background-color: rgb(167, 235, 212);
+    color: hsl(208, 100%, 97%);
+    text-shadow: 3px 3px 5px rgb(240, 248, 255);
+    text-align: center;
+  }
+  
+  ul {
+    background-color: rgb(167, 235, 212);
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(240, 248, 255);
+  }
+  
+  h2 {
+    background-color: rgb(167, 235, 212);
+    color: aliceblue;
+    font-size: x-large;
+    text-shadow: 3px 3px 5px rgb(240, 248, 255);
+    text-align: center;
+  }
+  
+  .leozin {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-indent: 3%;
+    text-align: justify;
+  }
+  
